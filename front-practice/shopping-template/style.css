@@ -6,8 +6,49 @@
   --color-yellow: #fbbe28;
   --color-pink: #fd7f84;
   --color-light-grey: #dfdfdf;
+
+  /*size*/
+  --size-button: 100px;
+  --size-logo: 150px;
 }
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  width: var(--size-logo);
+  transition: transform 300ms;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.imgbtn {
+  width: var(--size-button);
+  height: var(--size-button);
+  cursor: pointer;
+  transition: transform 300ms;
+  border-style: solid;
+  border-color: var(--color-black);
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.imgbtn:hover,
+.logo:hover {
+  transform: scale(1.2);
 }
