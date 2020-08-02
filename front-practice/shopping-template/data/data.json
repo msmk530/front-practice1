@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "country": "german",
+      "name": "pome",
+      "size": "Small",
+      "color": "Brown",
+      "image": "./img/pome.png"
+    },
+    {
+      "country": "aisan",
+      "name": "jindo",
+      "size": "Big",
+      "color": "White",
+      "image": "./img/jindo.png"
+    }
+  ]
+}

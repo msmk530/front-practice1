@@ -43,9 +43,9 @@ body {
 }
 
 .imgbtn {
-  width: var(--size-button);
-  height: var(--size-button);
   cursor: pointer;
+  width: 200px;
+  height: 50px;
   transition: transform 300ms;
   border-radius: 20px;
   margin-left: 20px;
@@ -59,4 +59,26 @@ body {
 .imgbtn:hover,
 .logo:hover {
   transform: scale(1.2);
+}
+
+.items {
+  width: 80%;
+  height: 80%;
+  list-style: none;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
+.item__thumbnail {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.item__description {
+  margin-left: 20px;
+  font-size: 50px;
+  font-style: oblique;
 }
