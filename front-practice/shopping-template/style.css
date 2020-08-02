@@ -9,7 +9,7 @@
 
   /*size*/
   --size-button: 100px;
-  --size-logo: 150px;
+  --size-logo: 300px;
 }
 
 * {
@@ -33,8 +33,13 @@ body {
   cursor: pointer;
   width: var(--size-logo);
   transition: transform 300ms;
-  border-radius: 20px;
-  margin-bottom: 20px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  border-style: inset;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-color: var(--color-black);
+  border-bottom-color: var(--color-black);
 }
 
 .imgbtn {
@@ -42,10 +47,13 @@ body {
   height: var(--size-button);
   cursor: pointer;
   transition: transform 300ms;
-  border-style: solid;
-  border-color: var(--color-black);
   border-radius: 20px;
   margin-left: 20px;
+  border-style: inset;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-color: var(--color-black);
+  border-bottom-color: var(--color-black);
 }
 
 .imgbtn:hover,
