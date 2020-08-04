@@ -19,8 +19,29 @@ function createHtmlString(item) {
   `;
 }
 
+function setEventListner(items) {
+  const logo = document.querySelector(".logo");
+  const buttons = document.querySelector(".btns");
+  logo.addEventListener("click", () => printItems(items));
+  buttons.addEventListener("click", (event) => onButtonClick(event, items));
+}
+
+function onButtonClick(event, items) {
+  const dataset = event.target.dataset;
+  const key = dataset.key;
+  const value = dataset.value;
+
+  if (key === null || value === null) {
+    return;
+  }
+
+  const filtered = items.filter((item) => item[key] === value);
+  printItems(filtered);
+}
+
 loadItems()
   .then((items) => {
     printItems(items);
+    setEventListner(items);
   })
   .catch(console.log);

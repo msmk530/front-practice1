@@ -8,11 +8,60 @@
       "image": "./img/pome.png"
     },
     {
-      "country": "aisan",
+      "country": "asian",
       "name": "jindo",
       "size": "Big",
       "color": "White",
       "image": "./img/jindo.png"
+    },
+    {
+      "country": "german",
+      "name": "doberman",
+      "size": "Big",
+      "color": "Black",
+      "image": "./img/doberman.png"
+    },
+    {
+      "country": "asian",
+      "name": "chowchow",
+      "size": "Big",
+      "color": "Brown",
+      "image": "./img/chowchow.png"
+    },
+    {
+      "country": "german",
+      "name": "poodle",
+      "size": "Small",
+      "color": "Black",
+      "image": "./img/poodle.png"
+    },
+    {
+      "country": "asian",
+      "name": "pug",
+      "size": "Small",
+      "color": "Brown",
+      "image": "./img/pug.png"
+    },
+    {
+      "country": "german",
+      "name": "schnauzer",
+      "size": "Small",
+      "color": "Black & White",
+      "image": "./img/schnauzer.png"
+    },
+    {
+      "country": "asian",
+      "name": "shiba",
+      "size": "Small",
+      "color": "Brown",
+      "image": "./img/shiba.png"
+    },
+    {
+      "country": "german",
+      "name": "eskimo",
+      "size": "Big",
+      "color": "White",
+      "image": "./img/eskimo.png"
     }
   ]
 }
